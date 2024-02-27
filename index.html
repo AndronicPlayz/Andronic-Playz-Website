@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andronic Playz</title>
+    <script src="https://kit.fontawesome.com/986cf3b256.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Image/favicon.png">
+    <link rel="stylesheet" href="animations.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 class="Channel-Text"><a href="index.html">ANDRONIC PLAYZ</a></h1>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about-section"><i class="fa-solid fa-address-card"></i> About Channel</a></li>
+                    <li><a href="#connect-section"><i class="fa-solid fa-circle-nodes"></i> Connet</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr class="nav-line">
+    <main>
+        <div class="sections">
+            <div class="left-section">
+                <h1 class="front-text slideRightIn">Welcome to the Official Website of <br> <span id="element"></span></h1>
+            </div>
+            <div class="right-section">
+                <img src="Image/logo.jpg" class="Ch-logo bounce">
+            </div>
+        </div>
+        <div id="about-section">
+            <h1 class="about-head slideRightIn hidden">About Channel</h1>
+            <br>
+            <h3 class="para hidden">Welcome to the epic realm of Andronic Playz, where gaming isn't just a hobby—it's a way of
+                life. Embark on an exhilarating journey with me as we navigate through the vast landscapes of virtual
+                worlds, conquering challenges and forging unforgettable memories along the way. From heart-stopping
+                battles to mind-bending puzzles, there's never a dull moment in our gaming escapades. But Andronic Playz
+                isn't just about playing games—it's about embracing the creativity and innovation that define the gaming
+                community.</h3>
+            <br>
+            <h3 class="para hidden">Dive into the exciting world of mods, where imagination knows no bounds, and experience
+                games like never before with custom content that pushes the limits of what's possible. With a passion
+                for gaming as our compass and a community of fellow adventurers at our side, there's no limit to the
+                adventures we'll embark on together. So grab your controller, join the adventure, and let's write the
+                next chapter in the saga of Andronic Playz!</h3>
+            <br>
+            <h3 class="para hidden">A call to action: Encourage viewers to subscribe, like, and comment.
+                Links to your social media: Increase discoverability by linking your other platforms.
+                A unique tagline: Briefly summarize the essence of your channel's content.
+            </h3>
+        </div>
+        <div id="connect-section">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Contact Us</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="35ae78ac-1145-4057-99c7-8b35aed5d6b6">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+            </form>
+            <div class="contact-right">
+                <img src="assets/right_img.png" alt="">
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>A</i> Youtuber', 'Andronic Playz'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
